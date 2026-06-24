@@ -2,8 +2,8 @@
 # Update url and baseurl after creating your GitHub repository.
 title: "Dr. Hrishikesh Chandra Gautam"
 description: "Air quality researcher working at the intersection of environmental engineering, satellite data, machine learning, emission inventories, and policy-relevant analytics."
-url: "https://your-github-username.github.io" # Example: https://coolkaku1.github.io
-baseurl: "" # For a project repo, use "/repository-name". For username.github.io, keep empty.
+url: "https://hcgautam.github.io" # Example: https://coolkaku1.github.io
+baseurl: "hcgautam" # For a project repo, use "/repository-name". For username.github.io, keep empty.
 
 # Author information
 author:
@@ -12,9 +12,9 @@ author:
   affiliation: "Energy Policy Institute at the University of Chicago"
   location: "India"
   email: "hcgautam.nitk@gmail.com"
-  github: "https://github.com/your-github-username" # TODO: replace with real GitHub URL
-  linkedin: "https://www.linkedin.com/in/your-linkedin-id" # TODO: replace with real LinkedIn URL
-  scholar: "https://scholar.google.com/citations?user=YOUR_ID" # TODO: replace with Google Scholar URL
+  github: "https://github.com/hcgautam" # TODO: replace with real GitHub URL
+  linkedin: "https://www.linkedin.com/in/dr-hrishikesh-chandra-gautam-b3091316/" # TODO: replace with real LinkedIn URL
+  scholar: "https://scholar.google.com/citations?hl=en&user=m36e-LUAAAAJ" # TODO: replace with Google Scholar URL
   orcid: "https://orcid.org/YOUR-ORCID-ID" # TODO: replace with ORCID URL
 
 # Build settings
