@@ -3,7 +3,7 @@
 title: "Dr. Hrishikesh Chandra Gautam"
 description: "Air quality researcher working at the intersection of environmental engineering, satellite data, machine learning, emission inventories, and policy-relevant analytics."
 url: "https://hcgautam.github.io" # Example: https://coolkaku1.github.io
-baseurl: "hcgautam" # For a project repo, use "/repository-name". For username.github.io, keep empty.
+baseurl: "/hcgautam" # For a project repo, use "/repository-name". For username.github.io, keep empty.
 
 # Author information
 author:
