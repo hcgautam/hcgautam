@@ -59,7 +59,3 @@ My academic and applied work sits at the intersection of:
 Before joining EPIC, I worked at **CSTEP, Bengaluru** as a Senior Associate, contributing to emission inventories, air quality management plans, low-cost sensor data analysis, satellite-based PM<sub>2.5</sub> modeling, and reduced-complexity modeling efforts for Indian cities.
 
 I have also worked at **IIT Madras** on projects related to vehicular emissions in Delhi and air quality management for the Jawaharlal Nehru Port Trust region.
-
-## Website wording note
-
-The wording on this website is intentionally concise and public-facing. It is based on confirmed CV facts, but it avoids copying long bullet points directly. Replace any placeholder links with verified professional links before deployment.
