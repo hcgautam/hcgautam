@@ -81,11 +81,6 @@ Vehicular emissions monitoring and predictive modelling in Delhi (CADTIME). Air 
 
 ---
 
-## Service
-
-Organising committee, **India Clean Air Summit** (CSTEP, 2020–2023) · Organising committee, **IICAQM Conference** (IIT Madras, 2016) · Organising Secretary, **Water Conservation and Management** (NITK Surathkal, 2011)
----
-
 ## Contact
 
 Open to research collaboration, air quality data analysis and modelling, peer review, talks and workshops.
