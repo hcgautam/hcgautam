@@ -48,11 +48,4 @@ Before EPIC I spent nearly four years at **CSTEP, Bengaluru** as a Senior Associ
 
 I care about work that is reproducible and legible to the people who have to act on it. That means version-controlled analysis, transparent assumptions about where numbers come from, and charts that a journalist or a pollution control board officer can read without a methods section.
 
-<<<<<<< HEAD
 <p><a class="button button--primary" href="{{ site.author.cv | relative_url }}">Download CV (PDF)</a></p>
-=======
-I have also worked at **IIT Madras** on projects related to vehicular emissions in Delhi and air quality management for the Jawaharlal Nehru Port Trust region.
-<<<<<<< Updated upstream
-=======
->>>>>>> 6662135be4f2d14c24ef79ef846d485fcf0ce00c
->>>>>>> Stashed changes

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ---------------------------------------------------------------------------
 # SITE
 # Set `url` and `baseurl` BEFORE you deploy. If these are wrong, the RSS feed,
@@ -14,17 +13,6 @@ description: >-
 url: "https://hcgautam.github.io"
 baseurl: ""
 lang: en_US
-=======
-# Site settings
-# Update url and baseurl after creating your GitHub repository.
-title: "Dr. Hrishikesh Chandra Gautam"
-description: "Air quality researcher working at the intersection of environmental engineering, satellite data, machine learning, emission inventories, and policy-relevant analytics."
-url: "https://hcgautam.github.io" # Example: https://coolkaku1.github.io
-baseurl: "/hcgautam" # For a project repo, use "/repository-name". For username.github.io, keep empty.
-<<<<<<< Updated upstream
-=======
->>>>>>> 6662135be4f2d14c24ef79ef846d485fcf0ce00c
->>>>>>> Stashed changes
 
 # ---------------------------------------------------------------------------
 # AUTHOR
@@ -39,18 +27,8 @@ author:
   affiliation: "Energy Policy Institute at the University of Chicago (EPIC)"
   location: "New Delhi, India"
   email: "hcgautam.nitk@gmail.com"
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
   photo: "/assets/img/profile.jpg"
   cv: "/files/cv.pdf"
-=======
->>>>>>> Stashed changes
-  github: "https://github.com/hcgautam" # TODO: replace with real GitHub URL
-  linkedin: "https://www.linkedin.com/in/dr-hrishikesh-chandra-gautam-b3091316/" # TODO: replace with real LinkedIn URL
-  scholar: "https://scholar.google.com/citations?hl=en&user=m36e-LUAAAAJ" # TODO: replace with Google Scholar URL
-  orcid: "https://orcid.org/YOUR-ORCID-ID" # TODO: replace with ORCID URL
->>>>>>> 6662135be4f2d14c24ef79ef846d485fcf0ce00c
 
 social:
   github: ""        # e.g. "https://github.com/hcgautam"

@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-Air quality researcher and data specialist working on satellite-derived PM2.5, life-expectancy analytics, emission inventories, air quality action plans, and machine learning tools for policy-relevant air pollution research.
-=======
-<<<<<<< HEAD
 # hcgautam.github.io — academic website
 
 Jekyll site for Dr. Hrishikesh Chandra Gautam, air quality researcher (EPIC · AQLI).
@@ -73,7 +69,3 @@ bundle exec jekyll serve --livereload
 The accent system is the AQI category spectrum (green → maroon): a 4 px band across the
 top of every page, and the top rule on cards. It is the one decorative move on the site —
 everything else stays quiet so the content reads. Dark mode follows the OS setting.
-=======
-Air quality researcher and data specialist working on satellite-derived PM2.5, life-expectancy analytics, emission inventories, air quality action plans, and machine learning tools for policy-relevant air pollution research.
->>>>>>> 6662135be4f2d14c24ef79ef846d485fcf0ce00c
->>>>>>> Stashed changes
