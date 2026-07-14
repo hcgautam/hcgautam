@@ -7,7 +7,7 @@ description: "Dr. Hrishikesh Chandra Gautam — air quality researcher working o
 <section class="hero">
   <div>
     <p class="eyebrow eyebrow--accent">Environmental engineering · Air quality · Data science</p>
-    <h1>Hrishikesh Chandra Gautam</h1>
+    <h1> Dr. Hrishikesh Chandra Gautam</h1>
     <p class="hero__role">
       <strong>Data Specialist — Air Quality Life Index</strong><br>
       Energy Policy Institute at the University of Chicago (EPIC)
