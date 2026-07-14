@@ -11,7 +11,7 @@ description: >-
   Air quality researcher working across satellite PM2.5, population exposure and
   life expectancy, emission inventories, machine learning and policy analytics.
 url: "https://hcgautam.github.io"
-baseurl: ""
+baseurl: "/hcgautam"
 lang: en_US
 
 # ---------------------------------------------------------------------------
