@@ -31,12 +31,12 @@ author:
   cv: "/files/cv.pdf"
 
 social:
-  github: ""        # e.g. "https://github.com/hcgautam"
-  linkedin: ""      # e.g. "https://www.linkedin.com/in/hcgautam"
-  scholar: ""       # e.g. "https://scholar.google.com/citations?user=XXXXXXX"
+  github: "https://github.com/hcgautam"
+  linkedin: "https://www.linkedin.com/in/dr-hrishikesh-chandra-gautam-b3091316/"
+  scholar: "https://scholar.google.com/citations?hl=en&user=m36e-LUAAAAJ"  
   orcid: ""         # e.g. "https://orcid.org/0000-0000-0000-0000"
-  researchgate: ""
-  twitter: ""       # handle only, e.g. "hcgautam"
+  researchgate: "https://www.researchgate.net/profile/Hrishikesh-Gautam?ev=hdr_xprf"
+  X: "https://x.com/coolkaku"       # handle only, e.g. "hcgautam"
 
 # ---------------------------------------------------------------------------
 # BUILD
