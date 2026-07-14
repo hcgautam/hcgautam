@@ -1,110 +1,93 @@
 ---
-layout: default
 title: Projects
 permalink: /projects/
+description: "Applied air quality projects: AQLI pipeline, emission inventories for 76 Indian cities, Jharkhand and Punjab clean-air plans, PAVITRA, DRIIV, CADTIME and JNPT."
 ---
 
-# Projects
+<div class="page-head">
+  <p class="eyebrow">Projects</p>
+  <h1>Projects</h1>
+  <p>Applied research at the science–policy–data interface, from national reporting pipelines to city-level monitoring campaigns.</p>
+</div>
 
-Selected academic, policy, and data-science projects from my CV are organized below as research/project cards. Add links to reports, GitHub repositories, dashboards, or media pages when available.
+<div class="project-list">
 
-<div class="project-grid">
-  <article class="project-card">
-    <span class="tag">2024–present · EPIC</span>
-    <h2>Air Quality Life Index analysis and reporting pipeline</h2>
-    <p>Managed analysis workflows for the Air Quality Life Index, including satellite-derived PM<sub>2.5</sub> processing, population-weighted concentration estimation, GADM Level 2 time-series analysis, visualization, and reporting support.</p>
-    <ul>
-      <li>Processed long-term PM<sub>2.5</sub> and population exposure datasets.</li>
-      <li>Supported life-expectancy impact analysis for policy communication.</li>
-      <li>Maintained reproducible code workflows using GitHub-based collaboration.</li>
-    </ul>
+  <article class="project">
+    <div class="project__meta"><strong>2024 — present</strong> EPIC · AQLI</div>
+    <div>
+      <h3>Air Quality Life Index analysis and reporting pipeline</h3>
+      <p>Own the end-to-end AQLI pipeline: satellite-based PM<sub>2.5</sub> processing, population-weighted concentration estimation, and time-series analysis of 25 years of GADM Level-2 data for the annual report.</p>
+      <ul>
+        <li>Life-expectancy impact estimates used in global policy and advocacy communication.</li>
+        <li>Visualisation and data synthesis for stakeholders and press.</li>
+        <li>Version-controlled, reviewable analysis code on GitHub.</li>
+      </ul>
+    </div>
   </article>
 
-  <article class="project-card">
-    <span class="tag">2020–2024 · CSTEP</span>
-    <h2>Comprehensive emission inventories for 76 Indian cities</h2>
-    <p>Developed city-level emission inventory inputs by compiling secondary activity data, coordinating with State Pollution Control Boards, using web-scraping workflows, and analyzing ground survey information.</p>
-    <ul>
-      <li>Covered multiple urban emission sectors.</li>
-      <li>Supported clean-air strategy development.</li>
-      <li>Converted heterogeneous activity data into policy-relevant evidence.</li>
-    </ul>
+  <article class="project">
+    <div class="project__meta"><strong>2020 — 2024</strong> CSTEP</div>
+    <div>
+      <h3>Comprehensive emission inventories for 76 Indian cities</h3>
+      <p>Compiled and synthesised secondary activity data across 76 cities, coordinating directly with State Pollution Control Boards and using web-scraping to collect data that was not otherwise available in usable form.</p>
+      <ul>
+        <li>Multi-sector urban emissions coverage.</li>
+        <li>Ground survey data analysis.</li>
+        <li>Presented at EGU General Assembly 2023.</li>
+      </ul>
+    </div>
   </article>
 
-  <article class="project-card">
-    <span class="tag">2023 · CSTEP</span>
-    <h2>Air pollution emission inventory for six cities in Jharkhand</h2>
-    <p>Collected and analyzed sectoral emission data for six Jharkhand cities and supported mitigation strategy development through scenario and techno-economic assessment.</p>
-    <ul>
-      <li>Sector-wise activity data compilation.</li>
-      <li>Scenario analysis for mitigation planning.</li>
-      <li>Evidence base for city air quality recommendations.</li>
-    </ul>
+  <article class="project">
+    <div class="project__meta"><strong>2023</strong> CSTEP · Jharkhand</div>
+    <div>
+      <h3>Air pollution emission inventory for six cities in Jharkhand</h3>
+      <p>Sector-wise emission data collection and analysis, followed by scenario analysis and techno-economic assessment to build evidence-based mitigation strategies.</p>
+      <ul>
+        <li>Published as CSTEP-RR-2023-5.</li>
+        <li>Cost-effectiveness ranking of interventions.</li>
+      </ul>
+    </div>
   </article>
 
-  <article class="project-card">
-    <span class="tag">CSTEP</span>
-    <h2>State-level air quality plan for Punjab</h2>
-    <p>Worked on satellite-derived air quality data processing, low-cost sensor validation, and regional data analysis to support state-level air quality planning.</p>
-    <ul>
-      <li>Satellite air quality data preprocessing and analysis.</li>
-      <li>Low-cost sensor data validation.</li>
-      <li>Regional air pollution assessment.</li>
-    </ul>
+  <article class="project">
+    <div class="project__meta"><strong>CSTEP</strong> Punjab</div>
+    <div>
+      <h3>State-level air quality plan for Punjab</h3>
+      <p>Collection, preprocessing and analysis of satellite-derived air quality data, with validation against low-cost sensor measurements to support state-level planning.</p>
+    </div>
   </article>
 
-  <article class="project-card">
-    <span class="tag">Machine learning</span>
-    <h2>PM<sub>2.5</sub> forecasting models</h2>
-    <p>Designed and implemented statistical and machine learning models for PM<sub>2.5</sub> prediction using methods including Random Forest, XGBoost, LSTM, and SVR.</p>
-    <ul>
-      <li>Forecasting for air quality management.</li>
-      <li>Model comparison and validation.</li>
-      <li>Pollutant and meteorological data integration.</li>
-    </ul>
+  <article class="project">
+    <div class="project__meta"><strong>CSTEP</strong> IITB · UC Berkeley · UW</div>
+    <div>
+      <h3>PAVITRA — air pollution management and intervention tool for India</h3>
+      <p>Collaboration funded by Open Philanthropy to build a reduced-complexity air pollution model for Indian cities, in the spirit of InMAP, so that intervention scenarios can be tested quickly.</p>
+    </div>
   </article>
 
-  <article class="project-card">
-    <span class="tag">Reduced-complexity modeling</span>
-    <h2>PAVITRA</h2>
-    <p>Contributed to a collaborative effort involving IIT Bombay, CSTEP, University of California Berkeley, and University of Washington to develop a reduced-complexity model similar to InMAP for Indian cities.</p>
-    <ul>
-      <li>Air pollution intervention modeling.</li>
-      <li>India-focused reduced-complexity modeling.</li>
-      <li>Collaborative research and tool development.</li>
-    </ul>
+  <article class="project">
+    <div class="project__meta"><strong>CSTEP</strong> IIT Delhi · APAG</div>
+    <div>
+      <h3>DRIIV — impact assessment of local abatement measures</h3>
+      <p>Low-cost sensor campaigns across multiple Delhi locations to measure whether abatement measures such as pavement design actually change local air quality.</p>
+    </div>
   </article>
 
-  <article class="project-card">
-    <span class="tag">Low-cost sensors</span>
-    <h2>DRIIV impact assessment project</h2>
-    <p>Studied the air quality effect of abatement measures such as pavement design at multiple Delhi locations using low-cost sensor-based monitoring.</p>
-    <ul>
-      <li>Low-cost sensor monitoring.</li>
-      <li>Local intervention assessment.</li>
-      <li>Delhi urban air quality analysis.</li>
-    </ul>
+  <article class="project">
+    <div class="project__meta"><strong>2019</strong> IIT Madras · CADTIME</div>
+    <div>
+      <h3>Vehicular emissions in Delhi</h3>
+      <p>Vehicular emission monitoring and analysis under the APHH programme (NERC, UK and MoES, India), including statistical tools and predictive models for emissions analysis.</p>
+    </div>
   </article>
 
-  <article class="project-card">
-    <span class="tag">2019 · IIT Madras</span>
-    <h2>CADTIME vehicular emissions project</h2>
-    <p>Worked on vehicular emission monitoring and analysis under the Clean Air for Delhi Through Intervention, Mitigation and Engagement project.</p>
-    <ul>
-      <li>Vehicular emission monitoring.</li>
-      <li>Statistical tools for emissions analysis.</li>
-      <li>Predictive modeling for Delhi emissions.</li>
-    </ul>
+  <article class="project">
+    <div class="project__meta"><strong>2018</strong> IIT Madras · JNPT</div>
+    <div>
+      <h3>Air quality management, Jawaharlal Nehru Port Trust, Nhava Sheva</h3>
+      <p>Set up the port's air quality monitoring network, executed the monitoring plan, reported monthly air quality status, and developed the management plan and mitigation measures.</p>
+    </div>
   </article>
 
-  <article class="project-card">
-    <span class="tag">2018 · IIT Madras</span>
-    <h2>Air quality management of JNPT, Nhava Sheva, Mumbai</h2>
-    <p>Supported air quality monitoring network setup, monitoring plan execution, monthly air quality reporting, and management plan development for the port region.</p>
-    <ul>
-      <li>Monitoring network design and execution.</li>
-      <li>Monthly air quality reporting.</li>
-      <li>Management and mitigation planning.</li>
-    </ul>
-  </article>
 </div>

@@ -1,31 +1,100 @@
+<<<<<<< HEAD
+# ---------------------------------------------------------------------------
+# SITE
+# Set `url` and `baseurl` BEFORE you deploy. If these are wrong, the RSS feed,
+# sitemap, SEO tags and social-share cards all point at the wrong address.
+#   User site  (repo named  hcgautam.github.io):  baseurl: ""      url: "https://hcgautam.github.io"
+#   Project site (repo named academic-website):   baseurl: "/academic-website"
+# ---------------------------------------------------------------------------
+title: "Hrishikesh Chandra Gautam"
+tagline: "Air Quality · Data · Policy"
+description: >-
+  Air quality researcher working across satellite PM2.5, population exposure and
+  life expectancy, emission inventories, machine learning and policy analytics.
+url: "https://hcgautam.github.io"
+baseurl: ""
+lang: en_US
+=======
 # Site settings
 # Update url and baseurl after creating your GitHub repository.
 title: "Dr. Hrishikesh Chandra Gautam"
 description: "Air quality researcher working at the intersection of environmental engineering, satellite data, machine learning, emission inventories, and policy-relevant analytics."
 url: "https://hcgautam.github.io" # Example: https://coolkaku1.github.io
 baseurl: "/hcgautam" # For a project repo, use "/repository-name". For username.github.io, keep empty.
+<<<<<<< Updated upstream
+=======
+>>>>>>> 6662135be4f2d14c24ef79ef846d485fcf0ce00c
+>>>>>>> Stashed changes
 
-# Author information
+# ---------------------------------------------------------------------------
+# AUTHOR
+# Every link below is optional. Leave a value empty ("") and the site simply
+# will not render that link — no broken placeholder URLs go live.
+# ---------------------------------------------------------------------------
 author:
   name: "Dr. Hrishikesh Chandra Gautam"
-  role: "Data Specialist, Air Quality Life Index"
-  affiliation: "Energy Policy Institute at the University of Chicago"
-  location: "India"
+  short_name: "H. C. Gautam"
+  initials: "HCG"
+  role: "Data Specialist — Air Quality Life Index"
+  affiliation: "Energy Policy Institute at the University of Chicago (EPIC)"
+  location: "New Delhi, India"
   email: "hcgautam.nitk@gmail.com"
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  photo: "/assets/img/profile.jpg"
+  cv: "/files/cv.pdf"
+=======
+>>>>>>> Stashed changes
   github: "https://github.com/hcgautam" # TODO: replace with real GitHub URL
   linkedin: "https://www.linkedin.com/in/dr-hrishikesh-chandra-gautam-b3091316/" # TODO: replace with real LinkedIn URL
   scholar: "https://scholar.google.com/citations?hl=en&user=m36e-LUAAAAJ" # TODO: replace with Google Scholar URL
   orcid: "https://orcid.org/YOUR-ORCID-ID" # TODO: replace with ORCID URL
+>>>>>>> 6662135be4f2d14c24ef79ef846d485fcf0ce00c
 
-# Build settings
+social:
+  github: ""        # e.g. "https://github.com/hcgautam"
+  linkedin: ""      # e.g. "https://www.linkedin.com/in/hcgautam"
+  scholar: ""       # e.g. "https://scholar.google.com/citations?user=XXXXXXX"
+  orcid: ""         # e.g. "https://orcid.org/0000-0000-0000-0000"
+  researchgate: ""
+  twitter: ""       # handle only, e.g. "hcgautam"
+
+# ---------------------------------------------------------------------------
+# BUILD
+# ---------------------------------------------------------------------------
 markdown: kramdown
 highlighter: rouge
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:year/:month/:title/
+timezone: Asia/Kolkata
 
-# Navigation menu
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# GitHub Pages supported plugins only
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Posts get the post layout automatically — no need to repeat it in front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# ---------------------------------------------------------------------------
+# NAVIGATION
+# ---------------------------------------------------------------------------
 nav:
-  - title: "Home"
-    url: "/"
   - title: "About"
     url: "/about/"
   - title: "Research"
@@ -34,7 +103,7 @@ nav:
     url: "/projects/"
   - title: "Publications"
     url: "/publications/"
-  - title: "Teaching"
+  - title: "Talks & Service"
     url: "/teaching/"
   - title: "CV"
     url: "/cv/"
@@ -43,15 +112,11 @@ nav:
   - title: "Contact"
     url: "/contact/"
 
-# GitHub Pages compatible plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Exclude development files from site build
 exclude:
   - README.md
+  - REVIEW.md
   - Gemfile
   - Gemfile.lock
-  - node_modules
   - vendor
+  - node_modules
+  - .jekyll-cache

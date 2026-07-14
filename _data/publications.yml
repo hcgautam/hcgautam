@@ -1,0 +1,93 @@
+# Single source of truth for the Publications page.
+# Add a new entry here and the page updates itself. Fields:
+#   type: journal | chapter | report | conference
+#   authors: use "Gautam, H. C." exactly so your own name is highlighted
+#   doi / url / pdf / code: optional; only the ones you fill in are shown
+
+- type: report
+  year: 2025
+  title: "Air Quality Life Index — Annual Update 2025"
+  authors: "Air Quality Life Index (AQLI)"
+  venue: "Energy Policy Institute at the University of Chicago"
+  url: "https://aqli.epic.uchicago.edu/reports/"
+
+- type: report
+  year: 2024
+  title: "Air Quality Life Index — Annual Update 2024"
+  authors: "Air Quality Life Index (AQLI)"
+  venue: "Energy Policy Institute at the University of Chicago"
+  url: "https://aqli.epic.uchicago.edu/reports/"
+
+- type: report
+  year: 2023
+  title: "Air Pollution Emission Inventory for Six Cities in Jharkhand"
+  authors: "CSTEP"
+  venue: "CSTEP Research Report, CSTEP-RR-2023-5"
+  url: "https://www.cstep.in/publications-details.php?id=2354"
+
+- type: journal
+  year: 2023
+  title: "Multiple PM low-cost sensors, multiple seasons' data, and multiple calibration models"
+  authors: "Singh, S., Agrawal, P., Kulkarni, P., Gautam, H. C., Kushwaha, M., Vakacherla, S."
+  venue: "Aerosol and Air Quality Research"
+  doi: "10.4209/aaqr.220428"
+
+- type: journal
+  year: 2022
+  title: "Which model to choose? Performance comparison of statistical and machine learning models in predicting PM2.5 from high-resolution satellite Aerosol Optical Depth"
+  authors: "Kulkarni, P., Vakacherla, S., Upadhya, A. R., Gautam, H. C."
+  venue: "Atmospheric Environment, 282, 119164"
+  doi: "10.1016/j.atmosenv.2022.119164"
+
+- type: chapter
+  year: 2022
+  title: "IoT-enabled services for sustainable municipal solid waste management in India"
+  authors: "Gautam, H. C., Yadav, V., Singh, V."
+  venue: "IoT-based Smart Waste Management for Environmental Sustainability, pp. 83–98. CRC Press, Taylor & Francis"
+  doi: "10.1201/9781003184096-5"
+
+- type: journal
+  year: 2019
+  title: "Study of meteorological impact on air quality in a humid tropical urban area"
+  authors: "Gautam, H. C., Shiva Nagendra, S. M."
+  venue: "Journal of Earth System Science, 128, 118"
+  doi: "10.1007/s12040-019-1116-7"
+
+- type: chapter
+  year: 2018
+  title: "Comparison of fuzzy synthetic evaluation techniques for evaluation of air quality: a case study"
+  authors: "Gautam, H. C., Shiva Nagendra, S. M."
+  venue: "Recent Developments and the New Direction in Soft-Computing Foundations and Applications. Studies in Fuzziness and Soft Computing, vol. 361. Springer, Cham"
+  doi: "10.1007/978-3-319-75408-6_47"
+
+- type: conference
+  year: 2023
+  title: "Correcting PM2.5 data from low-cost sensors using machine learning techniques"
+  authors: "Agrawal, P., Srishti, S., Kulkarni, P., Gautam, H. C., Kushwaha, M., Vakacherla, S., Singh, P."
+  venue: "EGU General Assembly 2023, Vienna, EGU23-3110"
+  doi: "10.5194/egusphere-egu23-3110"
+
+- type: conference
+  year: 2023
+  title: "Emission inventories for 76 cities in India for clean air strategies"
+  authors: "Singh, P., Banerjee, A., Kumar, U., Tiwari, A., Gautam, H. C., Mishra, S."
+  venue: "EGU General Assembly 2023, Vienna, EGU23-6701"
+  doi: "10.5194/egusphere-egu23-6701"
+
+- type: conference
+  year: 2015
+  title: "Development of a fuzzy inference system for assessment of air quality in an urban area"
+  authors: "Gautam, H. C., Shiva Nagendra, S. M."
+  venue: "Seventh Workshop on Big Data Benchmarking, New Delhi (poster)"
+
+- type: conference
+  year: 2014
+  title: "NO2 forecasting using artificial neural networks for an early warning system, Manali industrial area, Chennai"
+  authors: "Gautam, H. C., Shiva Nagendra, S. M."
+  venue: "Better Air Quality Conference 2014, Colombo, Sri Lanka"
+
+- type: conference
+  year: 2013
+  title: "Neuro-fuzzy applications in urban air quality management"
+  authors: "Gautam, H. C., Shiva Nagendra, S. M."
+  venue: "International Conference on Advanced Engineering Optimization Through Intelligent Techniques, SVNIT Surat"

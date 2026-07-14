@@ -1,20 +1,26 @@
 ---
-layout: default
 title: Blog
 permalink: /blog/
+description: "Research notes and explainers on air pollution data, satellite PM2.5, emission inventories, low-cost sensors and machine learning for air quality."
 ---
 
-# Blog / News
-
-Short updates, research notes, and explainers on air pollution data, environmental engineering, satellite PM<sub>2.5</sub>, machine learning, and policy-relevant analytics.
-
-<div class="post-list">
-  {% for post in site.posts %}
-  <article class="post-card">
-    <p class="post-card__date">{{ post.date | date: "%B %-d, %Y" }}</p>
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
-    <a class="read-more" href="{{ post.url | relative_url }}">Read more →</a>
-  </article>
-  {% endfor %}
+<div class="page-head">
+  <p class="eyebrow">Blog</p>
+  <h1>Notes</h1>
+  <p>Short research notes and explainers on air pollution data, satellite PM<sub>2.5</sub>, emission inventories, low-cost sensors, machine learning and the policy uses of all of it.</p>
 </div>
+
+{% if site.posts.size > 0 %}
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li class="post-item">
+    <p class="post-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></p>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p>{{ post.excerpt | strip_html | truncate: 200 }}</p>
+    <a href="{{ post.url | relative_url }}">Read →</a>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="muted">No posts yet.</p>
+{% endif %}

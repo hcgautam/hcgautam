@@ -1,0 +1,9 @@
+<ul class="social">
+  <li><a href="mailto:{{ site.author.email }}">Email</a></li>
+  {% if site.social.scholar != "" %}<li><a href="{{ site.social.scholar }}" rel="me noopener">Google Scholar</a></li>{% endif %}
+  {% if site.social.orcid != "" %}<li><a href="{{ site.social.orcid }}" rel="me noopener">ORCID</a></li>{% endif %}
+  {% if site.social.github != "" %}<li><a href="{{ site.social.github }}" rel="me noopener">GitHub</a></li>{% endif %}
+  {% if site.social.linkedin != "" %}<li><a href="{{ site.social.linkedin }}" rel="me noopener">LinkedIn</a></li>{% endif %}
+  {% if site.social.researchgate != "" %}<li><a href="{{ site.social.researchgate }}" rel="me noopener">ResearchGate</a></li>{% endif %}
+  {% if site.social.twitter != "" %}<li><a href="https://twitter.com/{{ site.social.twitter }}" rel="me noopener">Twitter/X</a></li>{% endif %}
+</ul>

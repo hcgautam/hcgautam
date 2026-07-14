@@ -1,30 +1,45 @@
 ---
-layout: default
 title: Contact
 permalink: /contact/
+description: "Contact Dr. Hrishikesh Chandra Gautam for research collaboration, air quality data analysis, modelling, talks and workshops."
 ---
 
-# Contact
-
-For research collaboration, data analysis, air quality modeling, workshops, or professional inquiries, please use the contact details below.
-
-<div class="contact-card">
-  <h2>Dr. Hrishikesh Chandra Gautam</h2>
-  <p><strong>Role:</strong> Data Specialist - Air Quality Life Index</p>
-  <p><strong>Affiliation:</strong> Energy Policy Institute at the University of Chicago</p>
-  <p><strong>Email:</strong> <a href="mailto:hcgautam.nitk@gmail.com">hcgautam.nitk@gmail.com</a></p>
-  <p><strong>Location:</strong> India</p>
+<div class="page-head">
+  <p class="eyebrow">Contact</p>
+  <h1>Get in touch</h1>
+  <p>For research collaboration, air quality data analysis and modelling, peer review, talks, workshops or media enquiries.</p>
 </div>
 
-## Professional links
+<div class="contact-grid">
+  <div class="card contact-card">
+    <dl>
+      <div>
+        <dt>Email</dt>
+        <dd><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></dd>
+      </div>
+      <div>
+        <dt>Role</dt>
+        <dd>{{ site.author.role }}</dd>
+      </div>
+      <div>
+        <dt>Affiliation</dt>
+        <dd>{{ site.author.affiliation }}</dd>
+      </div>
+      <div>
+        <dt>Based in</dt>
+        <dd>{{ site.author.location }}</dd>
+      </div>
+    </dl>
+  </div>
 
-<ul class="link-list">
-  <li><a href="{{ site.author.github }}">GitHub</a> <span class="muted">— replace placeholder URL in `_config.yml`</span></li>
-  <li><a href="{{ site.author.linkedin }}">LinkedIn</a> <span class="muted">— replace placeholder URL in `_config.yml`</span></li>
-  <li><a href="{{ site.author.scholar }}">Google Scholar</a> <span class="muted">— replace placeholder URL in `_config.yml`</span></li>
-  <li><a href="{{ site.author.orcid }}">ORCID</a> <span class="muted">— replace placeholder URL in `_config.yml`</span></li>
-</ul>
+  <div class="card">
+    <h2>Elsewhere</h2>
+    <p>Profiles, code and the full publication record.</p>
+    {% include social-links.html %}
+    <p style="margin-top:1.25rem;"><a class="button button--ghost" href="{{ site.author.cv | relative_url }}">Download CV (PDF)</a></p>
+  </div>
+</div>
 
-<div class="note note--warning">
-  <strong>Privacy recommendation:</strong> The original CV contains more personal contact information. For a public GitHub Pages site, publishing a home address or personal phone number is not recommended. Keep those details only in private CV versions if needed.
+<div class="note" style="margin-top:2rem;">
+  <p>I read every message, but replies to collaboration requests can take a week or two during report season.</p>
 </div>

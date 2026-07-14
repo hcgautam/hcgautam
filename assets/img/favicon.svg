@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#0e1a1f"/>
+  <rect x="0" y="52" width="10.7" height="12" fill="#35a35a"/>
+  <rect x="10.7" y="52" width="10.7" height="12" fill="#a8c545"/>
+  <rect x="21.4" y="52" width="10.7" height="12" fill="#f2c230"/>
+  <rect x="32.1" y="52" width="10.7" height="12" fill="#ef8b34"/>
+  <rect x="42.8" y="52" width="10.7" height="12" fill="#d94f3d"/>
+  <rect x="53.5" y="52" width="10.5" height="12" fill="#8d2f3f"/>
+  <text x="32" y="38" font-family="ui-monospace, monospace" font-size="21" font-weight="600" fill="#f4f7f7" text-anchor="middle">HCG</text>
+</svg>
